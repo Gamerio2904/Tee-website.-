@@ -15,7 +15,7 @@ npm run dev
 
 Danach im Browser öffnen: http://localhost:3000
 
-Die Seiten stehen als Quellcode in `app/`. `index.html` wird beim Build erzeugt und auf GitHub Pages veröffentlicht, nicht als Datei ins Repository gelegt. Die Testadresse ist https://gamerio2904.github.io/Tee-website.-/
+Die Seiten stehen als Quellcode in `app/`. `index.html` entsteht beim Build im Ordner `out/` und wird nicht ins Repository gelegt, weil der nächste Build sie neu schreibt. Eine Aktion für GitHub Pages liegt bereit. GitHub hat das Einschalten von Pages für diesen Zugang abgelehnt, deshalb gibt es noch keine Adresse unter github.io.
 
 Die statische Fassung entsteht mit `npm run build`. Der Ordner `out/` lässt sich danach mit `npm start` ausliefern.
 

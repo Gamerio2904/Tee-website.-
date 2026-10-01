@@ -115,4 +115,4 @@ Auf GitHub lässt sich die Website nicht öffnen. Dort liegt der Quellcode in `a
 
 **Antwort:**
 
-Die statische Seite wird per GitHub Actions gebaut. Dabei entsteht `index.html` im Build, nicht als handgeschriebene Datei im Repository. Veröffentlicht wird sie unter https://gamerio2904.github.io/Tee-website.-/ . Lokal bleibt `npm run dev` auf http://localhost:3000.
+Der Build ist gelaufen. `index.html` liegt danach in `out/`, nicht als Datei im Repository. Die GitHub-Action baut diese Datei ebenfalls. Das Veröffentlichen ist an GitHub Pages gescheitert, weil dieser Zugang Pages nicht einschalten darf. Zum sofortigen Testen dient eine temporäre Adresse: https://tribute-defendant-examining-household.trycloudflare.com . Sie gilt, solange diese Umgebung läuft, und funktioniert auch auf dem Tablet.
