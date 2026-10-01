@@ -1,4 +1,5 @@
 import type { Blend } from "@/lib/content";
+import { SiteLink } from "@/components/SiteLink";
 
 export function PriceLine({ price, unit }: { price: string; unit: string }) {
   return (
@@ -12,7 +13,7 @@ export function PriceLine({ price, unit }: { price: string; unit: string }) {
 
 export function BlendCard({ blend }: { blend: Blend }) {
   return (
-    <article className="card">
+    <SiteLink className="card card-link" href={`/mischung/${blend.slug}`}>
       <div className="card-visual" style={{ color: blend.hue }} aria-hidden="true">
         <svg viewBox="0 0 120 120">
           <rect x="8" y="8" width="104" height="104" rx="8" fill="none" stroke="currentColor" strokeOpacity="0.45" />
@@ -23,6 +24,6 @@ export function BlendCard({ blend }: { blend: Blend }) {
       <h3>{blend.name}</h3>
       <p className="taste">{blend.taste}</p>
       <PriceLine price={blend.price} unit={blend.unit} />
-    </article>
+    </SiteLink>
   );
 }

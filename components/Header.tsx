@@ -23,7 +23,7 @@ export function Header() {
         ))}
       </nav>
       <div className="bar-end">
-        <SiteLink className="btn btn-outline" href="/#sortiment">
+        <SiteLink className="btn btn-outline" href="/sortiment">
           <span className="label-long">Zum Sortiment</span>
           <span className="label-short">Sortiment</span>
         </SiteLink>

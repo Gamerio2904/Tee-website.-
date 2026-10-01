@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#14110e"/>
+  <text x="80" y="120" fill="#f3efe6" font-family="Georgia, serif" font-size="36">Studienprojekt · kein Verkauf · keine Lieferung</text>
+  <text x="80" y="560" fill="#f3efe6" font-family="Georgia, serif" font-size="92">Ein Blatt.</text>
+  <text x="80" y="670" fill="#d7a15a" font-family="Georgia, serif" font-size="92" font-style="italic">Ein stilles Glas.</text>
+  <ellipse cx="820" cy="760" rx="140" ry="36" fill="none" stroke="#f3efe6" stroke-width="3"/>
+  <path d="M700 760c0-120 40-180 120-180s120 60 120 180" fill="none" stroke="#f3efe6" stroke-width="3"/>
+  <text x="80" y="980" fill="#cbbfae" font-family="sans-serif" font-size="28">Glasquell</text>
+</svg>

@@ -1,14 +1,16 @@
+import { SiteLink } from "@/components/SiteLink";
+
 export default function NotFound() {
   return (
     <article className="subpage">
       <div className="subpage-inner">
         <p className="eyebrow">404</p>
         <h1>Diese Seite liegt nicht bereit.</h1>
-        <p>Der gesuchte Pfad gehört nicht zu diesem Stand der Startseite.</p>
+        <p>Der gesuchte Pfad gehört nicht zum Sortiment.</p>
         <p>
-          <a className="btn btn-gold" href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/`}>
-            Zurück zum Ritual
-          </a>
+          <SiteLink className="btn btn-gold" href="/sortiment">
+            Zum Sortiment
+          </SiteLink>
         </p>
       </div>
     </article>

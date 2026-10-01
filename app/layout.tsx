@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { SiteLink } from "@/components/SiteLink";
+import { CartProvider } from "@/lib/cart";
 import "./globals.css";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -31,7 +32,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </p>
           <Header />
         </div>
-        <main id="inhalt">{children}</main>
+        <CartProvider>
+          <main id="inhalt">{children}</main>
+        </CartProvider>
         <Footer />
       </body>
     </html>

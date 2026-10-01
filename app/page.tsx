@@ -1,6 +1,7 @@
 import { BlendCard } from "@/components/BlendCard";
-import { ChapterBlock } from "@/components/ChapterBlock";
-import { blends, chapters, prepSteps } from "@/lib/content";
+import { ScrollStage } from "@/components/ScrollStage";
+import { SiteLink } from "@/components/SiteLink";
+import { blends, prepSteps } from "@/lib/content";
 
 export default function HomePage() {
   return (
@@ -8,9 +9,7 @@ export default function HomePage() {
       <p className="sr-only">
         Sieben stehende Kapitel führen durch ein Aufgussritual. Es wird nichts verkauft.
       </p>
-      {chapters.map((chapter) => (
-        <ChapterBlock key={chapter.id} chapter={chapter} />
-      ))}
+      <ScrollStage />
       <section className="band" aria-labelledby="manufaktur-title">
         <div className="band-inner intro">
           <p className="eyebrow">Die Manufaktur</p>
@@ -60,9 +59,12 @@ export default function HomePage() {
               hell, wenn die Blüte Zeit bekommt.
             </p>
             <p>
-              Dieser Text ist der Auftakt. Die eigene Artikelseite folgt später. Auch dort wird nichts
-              verkauft.
+              Dieser Text ist der Auftakt. Der Artikel beschreibt nur Zubereitung und Farbe, keinen Nutzen
+              für die Gesundheit.
             </p>
+            <SiteLink className="text-link" href="/journal/langsam-aufgiessen">
+              Artikel lesen
+            </SiteLink>
           </div>
         </div>
       </section>

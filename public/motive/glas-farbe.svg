@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#14110e"/>
+  <text x="80" y="120" fill="#f3efe6" font-family="Georgia, serif" font-size="36">Studienprojekt · kein Verkauf · keine Lieferung</text>
+  <text x="80" y="520" fill="#f3efe6" font-family="Georgia, serif" font-size="84">Von klar</text>
+  <text x="80" y="630" fill="#d7a15a" font-family="Georgia, serif" font-size="84" font-style="italic">zu bernstein.</text>
+  <circle cx="820" cy="760" r="90" fill="#c4843a"/>
+  <text x="80" y="980" fill="#cbbfae" font-family="sans-serif" font-size="28">Glasquell · kein Angebot</text>
+</svg>

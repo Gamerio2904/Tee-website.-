@@ -2,7 +2,7 @@
 
 Die Roadmap folgt den Sprints. Ein Sprint entspricht einer Kalenderwoche im Rhythmus der Lehrveranstaltung. Die Website ist nach Sprint 2 schon vorführbar, nach Sprint 5 fachlich vollständig, nach Sprint 6 abgabefertig.
 
-**Umsetzungsstand, 1. Oktober 2026:** Sprint 0, Sprint 1 und Sprint 2 sind in der Website enthalten und lokal startbar. Ab Sprint 3, also die Filmszene, ist noch nichts gebaut.
+**Umsetzungsstand, 1. Oktober 2026:** Sprint 0 bis Sprint 5 sind in der Website enthalten. Sprint 6 liegt als Motive, E-Mail-Muster, Abgabebericht und leeres Testprotokoll bei. Die fünf Personen für den Nutzertest stehen noch aus.
 
 ```text
 Sprint 0  Rahmen
@@ -44,7 +44,7 @@ Sprint 6  Abgabe
 
 ## Wann die Website testbar ist
 
-Stand 1. Oktober 2026 gibt es keine laufende Seite und keine Adresse. Sprint 0 ist geplant und noch nicht umgesetzt.
+Seit dem 1. Oktober 2026 ist die Seite lokal testbar. Eine öffentliche github.io-Adresse gibt es nicht, weil GitHub Pages für diesen Zugang nicht eingeschaltet werden konnte.
 
 - Nach Sprint 2 lässt sich die Startseite mit den sieben Kapiteln, dem Studienhinweis und dem Sortimentsauszug im Browser anklicken.
 - Nach Sprint 4 kommen Sortiment und Mischungsseiten dazu.

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#14110e"/>
+  <text x="80" y="140" fill="#f3efe6" font-family="Georgia, serif" font-size="36">Studienprojekt · kein Verkauf · keine Lieferung</text>
+  <text x="80" y="640" fill="#f3efe6" font-family="Georgia, serif" font-size="88">Offen auf</text>
+  <text x="80" y="750" fill="#d7a15a" font-family="Georgia, serif" font-size="88" font-style="italic">dem Tisch.</text>
+  <path d="M760 980c20-80 70-120 120-120s90 40 90 120" fill="#d7c4a2"/>
+  <text x="80" y="1240" fill="#cbbfae" font-family="sans-serif" font-size="28">Glasquell · Musterware</text>
+</svg>

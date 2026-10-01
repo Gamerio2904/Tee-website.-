@@ -85,7 +85,7 @@ export const chapters: Chapter[] = [
     body: "Hier endet das Ritual. Das Sortiment ist Musterware.",
     scene: "cup",
     flip: false,
-    primary: { href: "/#sortiment", label: "Muster ansehen" },
+    primary: { href: "/sortiment", label: "Muster ansehen" },
     secondary: { href: "/#erster-blick", label: "Szene von vorn" },
   },
 ];
@@ -96,7 +96,12 @@ export type Blend = {
   taste: string;
   price: string;
   unit: string;
+  cents: number;
   hue: string;
+  ingredients: string[];
+  water: string;
+  time: string;
+  story: string;
 };
 
 export const blends: Blend[] = [
@@ -106,7 +111,12 @@ export const blends: Blend[] = [
     taste: "Kamille, Linde, mild und hell",
     price: "8,50 €",
     unit: "/ 50 g",
+    cents: 850,
     hue: "#d7c4a2",
+    ingredients: ["Kamillenblüten", "Lindenblüten"],
+    water: "etwa 90 °C",
+    time: "fünf Minuten",
+    story: "Die Tasse bleibt hell. Kamille und Linde liegen offen im Glas, bis das Wasser Farbe annimmt.",
   },
   {
     slug: "feuerblatt",
@@ -114,7 +124,12 @@ export const blends: Blend[] = [
     taste: "Ingwer, Zitronenverbene, warm und klar",
     price: "9,00 €",
     unit: "/ 50 g",
+    cents: 900,
     hue: "#d08a45",
+    ingredients: ["Ingwer", "Zitronenverbene"],
+    water: "etwa 95 °C",
+    time: "sechs Minuten",
+    story: "Ingwer bleibt im Glas sichtbar. Die Verbine duftet zuerst, die Schärfe kommt später.",
   },
   {
     slug: "nachtminze",
@@ -122,7 +137,12 @@ export const blends: Blend[] = [
     taste: "Pfefferminze, ein wenig Apfel",
     price: "7,50 €",
     unit: "/ 50 g",
+    cents: 750,
     hue: "#7f9a78",
+    ingredients: ["Pfefferminze", "Apfelstücke"],
+    water: "etwa 85 °C",
+    time: "vier Minuten",
+    story: "Minze kühlt den Dampf. Der Apfel hält die Tasse weich und nicht bitter.",
   },
   {
     slug: "waldbeere",
@@ -130,7 +150,12 @@ export const blends: Blend[] = [
     taste: "Hagebutte, Hibiskus, säuerlich",
     price: "8,00 €",
     unit: "/ 50 g",
+    cents: 800,
     hue: "#a85a52",
+    ingredients: ["Hagebutte", "Hibiskus"],
+    water: "etwa 95 °C",
+    time: "sechs Minuten",
+    story: "Die Farbe wird rot, bevor der Geschmack säuerlich wird. Beides bleibt im Glas lesbar.",
   },
   {
     slug: "bergkraut",
@@ -138,9 +163,22 @@ export const blends: Blend[] = [
     taste: "Melisse, Salbei, Kräuterwiese",
     price: "8,50 €",
     unit: "/ 50 g",
+    cents: 850,
     hue: "#8d9162",
+    ingredients: ["Melisse", "Salbei"],
+    water: "etwa 90 °C",
+    time: "fünf Minuten",
+    story: "Salbei duftet kräftig, Melisse bleibt hell. Die Mischung ist erfunden und nicht als Heilmittel gemeint.",
   },
 ];
+
+export function getBlend(slug: string) {
+  return blends.find((blend) => blend.slug === slug);
+}
+
+export function relatedBlends(slug: string) {
+  return blends.filter((blend) => blend.slug !== slug).slice(0, 3);
+}
 
 export const prepSteps = [
   {
@@ -156,3 +194,9 @@ export const prepSteps = [
     text: "Vier bis sechs Minuten ziehen lassen, dann abseihen. Nicht ausdrücken.",
   },
 ];
+
+export function formatEuro(cents: number) {
+  const euros = Math.floor(cents / 100);
+  const rest = Math.abs(cents % 100);
+  return `${euros},${rest.toString().padStart(2, "0")} €`;
+}

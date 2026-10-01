@@ -2,7 +2,7 @@
 
 Studienprojekt für eine Tee-Website im Look einer Manufaktur. Es wird nichts verkauft, nichts berechnet und nichts geliefert.
 
-Dieser Stand enthält Sprint 0 bis Sprint 2: Gestaltungsgrundlage und die Startseite mit sieben stehenden Kapiteln, Sortimentsauszug, Zubereitung und Journal-Auftakt. Die Filmszene ab Sprint 3 ist noch nicht gebaut.
+Dieser Stand enthält Sprint 0 bis Sprint 5 in der Website: Scroll-Bühne mit sieben eigenen Standbildern, Sortiment, Mischungsseiten, Musterliste nur in diesem Browser, Demo ohne Zahlung, Ritual, Journal und Fragen. Sprint 6 liegt als drei Motive, ein nicht versendetes E-Mail-Muster, Abgabebericht und leeres Testprotokoll bei. Fünf Testpersonen haben die Seite nicht bedient.
 
 ## Lokal testen
 
@@ -37,9 +37,9 @@ Ohne Tablet geht dieselbe Breite in Chrome über die Entwicklertools: Gerätelis
 
 ## Download
 
-Der Stand liegt auf dem Branch `cursor/tee-marketing-plan-a251`:
+Der aktuelle Stand liegt auf `main`:
 
-https://github.com/Gamerio2904/Tee-website.-/archive/refs/heads/cursor/tee-marketing-plan-a251.zip
+https://github.com/Gamerio2904/Tee-website.-/archive/refs/heads/main.zip
 
 ## Planung
 

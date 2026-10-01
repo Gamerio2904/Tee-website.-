@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Erklärung der laufenden Website.
+Stand der letzten Ergänzung: 1. Oktober 2026, Umsetzung der restlichen Sprints.
 
 ## Eintrag 1
 
@@ -140,3 +140,17 @@ Der Arbeitsstand war bereits committed. Dieser Protokolleintrag ist der letzte C
 **Antwort:**
 
 Die Website ist eine lokale Next.js-Seite ohne Server-Warenkorb und ohne Verkauf. `npm run dev` startet sie auf http://localhost:3000. Oben bleibt der Studienhinweis stehen. Die Startseite zeigt sieben stehende Kapitel, danach fünf Musterkarten, drei Zubereitungsschritte und einen Journal-Auftakt. Die Kopfzeile springt zu den Kapiteln 2, 3, 6 und 7. Impressum, Datenschutz, Studienhinweis und Barrierefreiheit sind eigene Seiten. Die Filmszene, Produktseiten und die Demo-Kasse sind noch nicht gebaut. Suchmaschinen sind mit `noindex` ausgeschlossen.
+
+## Eintrag 11
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Setzte dierestlichen Sprints um
+
+**Antwort:**
+
+Sprint 3 bis 5 sind in der Website: Scroll-Bühne aus eigenen Standbildern, Sortiment mit fünf Mischungsseiten, Musterliste nur in diesem Browser, Demo ohne Zahlungsfelder, Ritual, Journal und Fragen. Sprint 6 hat drei Motive, ein nicht versendetes E-Mail-Muster, den Abgabebericht und ein leeres Testprotokoll. Fünf echte Testpersonen werden nicht erfunden.
+
+Lokal testen: `npm install`, dann `npm run dev`, im Browser http://localhost:3000. Der Download des Stands auf `main` steht in der README. Geprüft: Sprung zu den Kapiteln Zutaten, Guss, Muster und zurück zum Anfang, keine Überlagerung von Überschrift und Glas bei 390 Pixel Breite, Musterliste, Demo-Bestätigung mit den drei Sätzen zu Vertrag, Abbuchung und Lieferung, 404 mit Link zum Sortiment, `noindex`.
