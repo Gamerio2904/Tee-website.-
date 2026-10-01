@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Umsetzung bis Sprint 2.
+Stand der letzten Ergänzung: 1. Oktober 2026, Test auf dem Tablet.
 
 ## Eintrag 1
 
@@ -80,3 +80,15 @@ Sprint 0 bis Sprint 2 sind umgesetzt: Studienhinweis, Impressum als Entwurf, dun
 https://github.com/Gamerio2904/Tee-website.-/archive/refs/heads/cursor/tee-marketing-plan-a251.zip
 
 Lokal testen mit Node.js 22: `npm install`, dann `npm run dev`, im Browser http://localhost:3000.
+
+## Eintrag 6
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Wie kann ich die Website auf dem Tablett testen
+
+**Antwort:**
+
+Computer und Tablet ins selbe WLAN legen, `npm run dev` auf dem Computer laufen lassen und auf dem Tablet `http://` plus die IPv4-Adresse des Computers plus `:3000` öffnen. `localhost` auf dem Tablet zeigt nicht auf den Computer. Unter 900 Pixel Breite gilt das schmale Layout. Die Schritte stehen in der README im Abschnitt „Auf einem Tablet testen“.

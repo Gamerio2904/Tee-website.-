@@ -17,6 +17,22 @@ Danach im Browser öffnen: http://localhost:3000
 
 Die statische Fassung entsteht mit `npm run build`. Der Ordner `out/` lässt sich danach mit `npm start` ausliefern.
 
+## Auf einem Tablet testen
+
+`npm run dev` hört in diesem Projekt auf allen Netzwerkkarten, nicht nur auf diesem Rechner. Computer und Tablet müssen im selben WLAN sein. Ein Gastnetz trennt die Geräte oft voneinander.
+
+1. Den Rechner starten und im Projektordner `npm run dev` laufen lassen.
+2. Die lokale Adresse des Rechners ablesen.
+   - Windows: in der Eingabeaufforderung `ipconfig`, die IPv4-Adresse des WLAN-Adapters.
+   - macOS: im Terminal `ipconfig getifaddr en0`.
+   - Linux: im Terminal `hostname -I`, die erste Adresse.
+3. Auf dem Tablet im Browser `http://192.168.x.x:3000` öffnen. Die Zahlen sind die Adresse aus Schritt 2. `localhost` auf dem Tablet zeigt auf das Tablet selbst und funktioniert nicht.
+4. Wenn die Seite nicht lädt, die Firewall des Rechners für Node.js und Port 3000 freigeben.
+
+Unter 900 Pixel Breite, also beim Tablet im Hochformat, erscheint das schmale Menü. Ab 900 Pixel, meist im Querformat, steht die Navigation in der Kopfzeile.
+
+Ohne Tablet geht dieselbe Breite in Chrome über die Entwicklertools: Geräteliste öffnen und ein iPad wählen.
+
 ## Download
 
 Der Stand liegt auf dem Branch `cursor/tee-marketing-plan-a251`:
