@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Test auf dem Tablet.
+Stand der letzten Ergänzung: 1. Oktober 2026, GitHub und index.html.
 
 ## Eintrag 1
 
@@ -92,3 +92,15 @@ Lokal testen mit Node.js 22: `npm install`, dann `npm run dev`, im Browser http:
 **Antwort:**
 
 Computer und Tablet ins selbe WLAN legen, `npm run dev` auf dem Computer laufen lassen und auf dem Tablet `http://` plus die IPv4-Adresse des Computers plus `:3000` öffnen. `localhost` auf dem Tablet zeigt nicht auf den Computer. Unter 900 Pixel Breite gilt das schmale Layout. Die Schritte stehen in der README im Abschnitt „Auf einem Tablet testen“.
+
+## Eintrag 7
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Kann ich das auf github testen und warum keine Index.html?
+
+**Antwort:**
+
+Auf GitHub lässt sich die Website nicht öffnen. Dort liegt der Quellcode in `app/`, keine fertige HTML-Seite. `index.html` entsteht erst lokal durch `npm run build` im Ordner `out/`. Dieser Ordner ist in `.gitignore` und wird nicht hochgeladen. Testen geht weiter über `npm run dev` und http://localhost:3000.
