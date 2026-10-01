@@ -47,7 +47,7 @@ Stand 1. Oktober 2026 gibt es keine laufende Seite und keine Adresse. Sprint 0 i
 - Nach Sprint 2 lässt sich die Startseite mit den sieben Kapiteln, dem Studienhinweis und dem Sortimentsauszug im Browser anklicken.
 - Nach Sprint 4 kommen Sortiment und Mischungsseiten dazu.
 - Nach Sprint 5 ist der ganze Weg bis zur Demo-Bestätigung testbar, inklusive Warenkorb und Pflichtseiten.
-- In Sprint 6 folgt der geführte Nutzertest mit fünf Personen.
+- In Sprint 6 folgt die Marketing-Abgabe. Der genaue Ablauf steht in [08-sprint-6.md](08-sprint-6.md).
 
 ## Bewusst später
 

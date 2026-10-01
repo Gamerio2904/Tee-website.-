@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Nachfrage zur Testbarkeit.
+Stand der letzten Ergänzung: 1. Oktober 2026, Erklärung zu Sprint 6.
 
 ## Eintrag 1
 
@@ -52,3 +52,15 @@ Kurzfassung der Antwort: Das Projekt ist eine fiktive, hochwertig gestaltete Tee
 **Antwort:**
 
 Testen geht noch nicht. Im Repository liegt der Plan, keine laufende Seite. Der erste vorführbare Stand ist die Startseite am Ende von Sprint 2. Der Weg von der Startseite bis zur Demo-Bestätigung ist am Ende von Sprint 5 testbar. Die Abgabe mit Nutzertest ist Sprint 6. Sprint 0 ist noch nicht in Bau gegangen, deshalb gibt es kein Datum und keine Adresse.
+
+## Eintrag 4
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Schritt 6 genaur erklären
+
+**Antwort:**
+
+Die ausführliche Fassung steht in [08-sprint-6.md](08-sprint-6.md). Sprint 6 ist die Marketing-Abgabe, nachdem die Seite in Sprint 5 fertig ist. Drei Ergebnisse: ein Nutzertest mit fünf Personen gegen die Verständnis-Kriterien, drei Social-Motive plus ein nicht versendetes E-Mail-Muster mit Studienhinweis im ersten Satz, und der Abgabestand mit schmaler und breiter Breite, `noindex` und kurzem Bericht. Neue Shop-Funktionen werden in dieser Woche nicht gebaut.
