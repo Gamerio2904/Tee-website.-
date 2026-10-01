@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Veröffentlichung auf GitHub Pages.
+Stand der letzten Ergänzung: 1. Oktober 2026, Commit und Merge nach main.
 
 ## Eintrag 1
 
@@ -116,3 +116,15 @@ Auf GitHub lässt sich die Website nicht öffnen. Dort liegt der Quellcode in `a
 **Antwort:**
 
 Der Build ist gelaufen. `index.html` liegt danach in `out/`, nicht als Datei im Repository. Die GitHub-Action baut diese Datei ebenfalls. Das Veröffentlichen ist an GitHub Pages gescheitert, weil dieser Zugang Pages nicht einschalten darf. Zum sofortigen Testen dient eine temporäre Adresse: https://tribute-defendant-examining-household.trycloudflare.com . Sie gilt, solange diese Umgebung läuft, und funktioniert auch auf dem Tablet.
+
+## Eintrag 9
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Alles commiten und mergen
+
+**Antwort:**
+
+Der Arbeitsstand war bereits committed. Dieser Protokolleintrag ist der letzte Commit. Der Branch `cursor/tee-marketing-plan-a251` wird danach nach `main` gemergt und gepusht.
