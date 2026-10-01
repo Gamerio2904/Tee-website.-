@@ -1,6 +1,6 @@
 # Erweiterung: langes Scrollen, Inhalte, Oberfläche, Online-Marketing
 
-Stand: 1. Oktober 2026. Dieser Plan folgt auf die Sprints 0 bis 6. Er beschreibt die nächsten vier Sprints. Gebaut wird er erst, wenn die Umsetzung freigegeben ist.
+Stand: 1. Oktober 2026. Dieser Plan folgt auf die Sprints 0 bis 6. Die Sprints 7 bis 10 sind in der Website umgesetzt. Das Testprotokoll bleibt leer.
 
 ## Was gerade schiefläuft
 

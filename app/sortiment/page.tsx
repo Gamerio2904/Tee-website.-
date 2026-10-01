@@ -9,7 +9,7 @@ export default function SortimentPage() {
     <article className="subpage">
       <div className="subpage-inner wide">
         <p className="flag">Musterware</p>
-        <h1>Fünf Mischungen, kein Angebot.</h1>
+        <h1>Neun Mischungen, kein Angebot.</h1>
         <p>
           Glasquell ist ein Studienprojekt. Die Preise sind Beispielpreise. Es wird nichts verkauft und
           nichts geliefert.

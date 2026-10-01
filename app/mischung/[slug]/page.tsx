@@ -34,22 +34,64 @@ export default async function BlendPage({ params }: { params: Promise<{ slug: st
             </svg>
           </div>
           <div>
+            <p className="eyebrow">{blend.kind}</p>
             <h1>{blend.name}</h1>
             <p>{blend.story}</p>
             <PriceLine price={blend.price} unit={blend.unit} />
             <AddToCart slug={blend.slug} />
           </div>
         </div>
+        <dl className="facts">
+          <div>
+            <dt>Tassenfarbe</dt>
+            <dd>{blend.cup}</dd>
+          </div>
+          <div>
+            <dt>Herkunft</dt>
+            <dd>{blend.origin}</dd>
+          </div>
+          <div>
+            <dt>Menge</dt>
+            <dd>{blend.dose}</dd>
+          </div>
+          <div>
+            <dt>Wasser</dt>
+            <dd>{blend.water}</dd>
+          </div>
+          <div>
+            <dt>Zeit</dt>
+            <dd>{blend.time}</dd>
+          </div>
+        </dl>
         <h2>Zutaten</h2>
         <ul>
           {blend.ingredients.map((item) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
-        <h2>Zubereitung</h2>
-        <p>
-          Wasser {blend.water}. Zwei Gramm auf 200 Milliliter. {blend.time} ziehen lassen, dann abseihen.
-        </p>
+        <h2>Aufguss</h2>
+        <ol className="steps steps-stack">
+          <li>
+            <span>01</span>
+            <h3>Menge</h3>
+            <p>{blend.dose}. Die Blätter bleiben im Glas sichtbar.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <h3>Wasser</h3>
+            <p>{blend.water}. Nicht kochen, wenn die Mischung ein Grüntee ist.</p>
+          </li>
+          <li>
+            <span>03</span>
+            <h3>Zeit</h3>
+            <p>{blend.time} ziehen lassen. Die Tasse wird {blend.cup}.</p>
+          </li>
+          <li>
+            <span>04</span>
+            <h3>Abseihen</h3>
+            <p>Abgießen, ohne die Blätter auszudrücken.</p>
+          </li>
+        </ol>
         <p>Die Mischung ist erfunden. Sie ist kein Lebensmittelangebot und kein Hinweis auf eine Wirkung.</p>
         <h2>Weitere Muster</h2>
         <div className="cards cards-three">

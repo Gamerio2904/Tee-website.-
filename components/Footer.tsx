@@ -13,6 +13,8 @@ export function Footer() {
         <SiteLink href="/#aufguss">Aufguss</SiteLink>
         <SiteLink href="/#guss">Guss</SiteLink>
         <SiteLink href="/sortiment">Sortiment</SiteLink>
+        <SiteLink href="/herkunft">Herkunft</SiteLink>
+        <SiteLink href="/kampagne">Kampagne</SiteLink>
         <SiteLink href="/warenkorb">Musterliste</SiteLink>
         <SiteLink href="/ritual">Ritual</SiteLink>
         <SiteLink href="/journal">Journal</SiteLink>

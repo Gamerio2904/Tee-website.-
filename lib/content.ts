@@ -93,6 +93,7 @@ export const chapters: Chapter[] = [
 export type Blend = {
   slug: string;
   name: string;
+  kind: string;
   taste: string;
   price: string;
   unit: string;
@@ -101,13 +102,20 @@ export type Blend = {
   ingredients: string[];
   water: string;
   time: string;
+  dose: string;
+  cup: string;
+  origin: string;
   story: string;
 };
+
+const dose = "zwei Gramm auf 200 Milliliter";
+const hof = "Hof am Glasquell, eine erfundene Werkstatt, kein reales Anbaugebiet.";
 
 export const blends: Blend[] = [
   {
     slug: "lindenruhe",
     name: "Lindenruhe",
+    kind: "Kräuter",
     taste: "Kamille, Linde, mild und hell",
     price: "8,50 €",
     unit: "/ 50 g",
@@ -116,11 +124,15 @@ export const blends: Blend[] = [
     ingredients: ["Kamillenblüten", "Lindenblüten"],
     water: "etwa 90 °C",
     time: "fünf Minuten",
+    dose,
+    cup: "hellgelb",
+    origin: hof,
     story: "Die Tasse bleibt hell. Kamille und Linde liegen offen im Glas, bis das Wasser Farbe annimmt.",
   },
   {
     slug: "feuerblatt",
     name: "Feuerblatt",
+    kind: "Kräuter",
     taste: "Ingwer, Zitronenverbene, warm und klar",
     price: "9,00 €",
     unit: "/ 50 g",
@@ -129,12 +141,16 @@ export const blends: Blend[] = [
     ingredients: ["Ingwer", "Zitronenverbene"],
     water: "etwa 95 °C",
     time: "sechs Minuten",
+    dose,
+    cup: "klar, mit goldener Wärme",
+    origin: hof,
     story: "Ingwer bleibt im Glas sichtbar. Die Verbine duftet zuerst, die Schärfe kommt später.",
   },
   {
     slug: "nachtminze",
     name: "Nachtminze",
-    taste: "Pfefferminze, ein wenig Apfel",
+    kind: "Kräuter",
+    taste: "Pfefferminze, Apfel, kühl",
     price: "7,50 €",
     unit: "/ 50 g",
     cents: 750,
@@ -142,11 +158,15 @@ export const blends: Blend[] = [
     ingredients: ["Pfefferminze", "Apfelstücke"],
     water: "etwa 85 °C",
     time: "vier Minuten",
+    dose,
+    cup: "blassgrün",
+    origin: hof,
     story: "Minze kühlt den Dampf. Der Apfel hält die Tasse weich und nicht bitter.",
   },
   {
     slug: "waldbeere",
     name: "Waldbeere",
+    kind: "Früchte",
     taste: "Hagebutte, Hibiskus, säuerlich",
     price: "8,00 €",
     unit: "/ 50 g",
@@ -155,11 +175,15 @@ export const blends: Blend[] = [
     ingredients: ["Hagebutte", "Hibiskus"],
     water: "etwa 95 °C",
     time: "sechs Minuten",
+    dose,
+    cup: "rot",
+    origin: hof,
     story: "Die Farbe wird rot, bevor der Geschmack säuerlich wird. Beides bleibt im Glas lesbar.",
   },
   {
     slug: "bergkraut",
     name: "Bergkraut",
+    kind: "Kräuter",
     taste: "Melisse, Salbei, Kräuterwiese",
     price: "8,50 €",
     unit: "/ 50 g",
@@ -168,7 +192,78 @@ export const blends: Blend[] = [
     ingredients: ["Melisse", "Salbei"],
     water: "etwa 90 °C",
     time: "fünf Minuten",
+    dose,
+    cup: "hellgrün",
+    origin: hof,
     story: "Salbei duftet kräftig, Melisse bleibt hell. Die Mischung ist erfunden und nicht als Heilmittel gemeint.",
+  },
+  {
+    slug: "nebelhang",
+    name: "Nebelhang",
+    kind: "Grüntee",
+    taste: "Frühes Blatt, grasig, hellgrün in der Tasse",
+    price: "9,50 €",
+    unit: "/ 50 g",
+    cents: 950,
+    hue: "#b7c48a",
+    ingredients: ["Grünteeblätter"],
+    water: "etwa 70 °C",
+    time: "zwei Minuten",
+    dose,
+    cup: "hellgrün",
+    origin: hof,
+    story: "Das Blatt bleibt ganz. Kurze Zeit und kühleres Wasser halten die Tasse hell, nicht braun.",
+  },
+  {
+    slug: "kupferzweig",
+    name: "Kupferzweig",
+    kind: "Schwarztee",
+    taste: "Malzig, kupferfarben, wenig Gerbstoff",
+    price: "8,90 €",
+    unit: "/ 50 g",
+    cents: 890,
+    hue: "#b56a3a",
+    ingredients: ["Schwarztee"],
+    water: "etwa 95 °C",
+    time: "drei Minuten",
+    dose,
+    cup: "kupferfarben",
+    origin: hof,
+    story: "Drei Minuten reichen. Länger wird die Tasse dunkler und der Aufguss herber, ohne dass daraus ein Versprechen wird.",
+  },
+  {
+    slug: "nachtfunken",
+    name: "Nachtfunken",
+    kind: "Rooibos",
+    taste: "Honigbusch, Orangenschale, ohne Koffein",
+    price: "8,20 €",
+    unit: "/ 50 g",
+    cents: 820,
+    hue: "#c47a45",
+    ingredients: ["Rooibos", "Honigbusch", "Orangenschale"],
+    water: "etwa 98 °C",
+    time: "sechs Minuten",
+    dose,
+    cup: "tief bernstein",
+    origin: hof,
+    story: "Rooibos enthält von sich aus kein Koffein. Das ist eine Aussage über den Rohstoff, keine Aussage über den Körper.",
+  },
+  {
+    slug: "jasminstill",
+    name: "Jasminstill",
+    kind: "Grüntee",
+    taste: "Jasminblüte, weich, blassgold",
+    price: "10,00 €",
+    unit: "/ 50 g",
+    cents: 1000,
+    hue: "#e2c98a",
+    ingredients: ["Grüntee", "Jasminblüten"],
+    water: "etwa 75 °C",
+    time: "zwei Minuten",
+    dose,
+    cup: "blassgold",
+    origin: hof,
+    story: "Die Blüte duftet vor dem Blatt. Die Tasse bleibt blass, wenn das Wasser nicht kocht.",
   },
 ];
 
@@ -182,16 +277,47 @@ export function relatedBlends(slug: string) {
 
 export const prepSteps = [
   {
-    title: "Wasser",
-    text: "Knapp unter dem Siedepunkt, etwa 90 °C. Sprudelndes Wasser bleibt in der Kanne.",
-  },
-  {
     title: "Menge",
     text: "Zwei Gramm lose Mischung auf 200 Milliliter. Die Blätter brauchen Platz im Glas.",
   },
   {
+    title: "Temperatur",
+    text: "Je nach Muster zwischen etwa 70 und 98 °C. Kochendes Wasser bleibt für den Grüntee in der Kanne.",
+  },
+  {
     title: "Zeit",
-    text: "Vier bis sechs Minuten ziehen lassen, dann abseihen. Nicht ausdrücken.",
+    text: "Zwei bis sechs Minuten, wie auf der Mischungsseite angegeben. Nicht rühren, bis die Farbe steht.",
+  },
+  {
+    title: "Abseihen",
+    text: "Abgießen, ohne die Blätter auszudrücken. Die Farbe ist dann fertig.",
+  },
+];
+
+export const articles = [
+  {
+    slug: "langsam-aufgiessen",
+    title: "Langsam aufgießen",
+    lede: "Wie Lindenruhe im Glas Farbe annimmt, und wann der Aufguss beendet ist.",
+    blend: "lindenruhe",
+  },
+  {
+    slug: "farbe-im-glas",
+    title: "Die Farbe im Glas",
+    lede: "Klares Wasser, dann das Blatt. Nebelhang zeigt, warum die Farbe zuletzt kommt.",
+    blend: "nebelhang",
+  },
+  {
+    slug: "zwei-gramm",
+    title: "Zwei Gramm",
+    lede: "Warum die Menge im Glas sichtbar bleiben muss, am Beispiel Kupferzweig.",
+    blend: "kupferzweig",
+  },
+  {
+    slug: "lose-mischung",
+    title: "Was eine lose Mischung ist",
+    lede: "Früchte und Blätter ohne Beutel, gelesen an Waldbeere.",
+    blend: "waldbeere",
   },
 ];
 

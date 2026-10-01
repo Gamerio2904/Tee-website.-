@@ -23,6 +23,9 @@ export function BlendCard({ blend }: { blend: Blend }) {
       </div>
       <h3>{blend.name}</h3>
       <p className="taste">{blend.taste}</p>
+      <p className="brew">
+        {blend.kind}. {blend.water}, {blend.time}
+      </p>
       <PriceLine price={blend.price} unit={blend.unit} />
     </SiteLink>
   );

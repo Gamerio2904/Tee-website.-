@@ -19,7 +19,7 @@ export default function DatenschutzPage() {
           abgefragt.
         </p>
         <p>
-          Erreicht die Scroll-Szene das siebte Kapitel, kann der Browser zusätzlich die Markierung
+          Kommt das siebte Kapitel ins Blickfeld, kann der Browser zusätzlich die Markierung
           „glasquell-kapitel-7“ setzen. Auch die bleibt auf dem Gerät.
         </p>
         <p>

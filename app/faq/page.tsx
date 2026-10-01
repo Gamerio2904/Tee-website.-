@@ -12,7 +12,10 @@ export default function FaqPage() {
         <h2>Sind die Preise ernst gemeint?</h2>
         <p>Nein. Jeder Preis ist ein Beispielpreis und kein Angebot.</p>
         <h2>Wie wird aufgegossen?</h2>
-        <p>Zwei Gramm auf 200 Milliliter, Wasser je nach Muster zwischen 85 und 95 °C, vier bis sechs Minuten.</p>
+        <p>
+          Zwei Gramm auf 200 Milliliter. Die Temperatur steht auf der Mischung, etwa 70 °C bei Nebelhang bis
+          etwa 98 °C bei Nachtfunken. Die Zeit liegt zwischen zwei und sechs Minuten. Danach wird abgeseiht.
+        </p>
         <h2>Was wird gespeichert?</h2>
         <p>
           Die Musterliste liegt nur in diesem Browser. Ein optionaler Vorname bleibt nur für die

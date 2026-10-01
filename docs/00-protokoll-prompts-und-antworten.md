@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Plan für Scrollkorrektur und Online-Marketing.
+Stand der letzten Ergänzung: 1. Oktober 2026, Umsetzung der Sprints 7 bis 10.
 
 ## Eintrag 1
 
@@ -178,3 +178,15 @@ Die Seite ist unter https://tribute-defendant-examining-household.trycloudflare.
 **Antwort:**
 
 Die gepinnte Bühne tauscht das Kapitel im selben Fenster aus. Der nächste Plan stellt die sieben Kapitel wieder untereinander, erweitert das Sortiment auf neun erfundene Mischungen, schärft die Oberfläche und legt die Kampagne „Die Farbe kommt zuletzt“ an. Verkauf, Formular, Pixel, Bewertungen und Heilversprechen bleiben draußen. Die Ausführung steht in [11-scroll-und-marketing.md](11-scroll-und-marketing.md). Gebaut ist dieser Plan noch nicht.
+
+## Eintrag 14
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Setzte alles geplante um
+
+**Antwort:**
+
+Sprint 7 bis 10 sind in der Website. Die sieben Kapitel stehen untereinander. Das Sortiment hat neun erfundene Mischungen mit Aufguss, Tassenfarbe und der Herkunft Hof am Glasquell. Neu sind Herkunft, vier Journalartikel, die Kampagne „Die Farbe kommt zuletzt“, drei Motive und ein zweites E-Mail-Muster, das nicht versendet wird. Das Testprotokoll hat eine leere Spalte für die Kampagnenfrage. Ergebnisse sind nicht erfunden.

@@ -39,8 +39,12 @@ Fünf Mischungen reichen für einen vollen Shop-Eindruck. Jede Mischung hat Gesc
 | Nachtminze | Pfefferminze, ein wenig Apfel | 7,50 € / 50 g |
 | Waldbeere | Hagebutte, Hibiskus, säuerlich | 8,00 € / 50 g |
 | Bergkraut | Melisse, Salbei, Kräuterwiese | 8,50 € / 50 g |
+| Nebelhang | Grüntee, frühes Blatt, grasig, hellgrün | 9,50 € / 50 g |
+| Kupferzweig | Schwarztee, malzig, kupferfarben | 8,90 € / 50 g |
+| Nachtfunken | Rooibos, Honigbusch, Orangenschale, ohne Koffein | 8,20 € / 50 g |
+| Jasminstill | Grüntee, Jasminblüte, weich, blassgold | 10,00 € / 50 g |
 
-Alle Preise sind Beispielpreise und kein Angebot. Die fünf Muster bleiben die Grundlage. Vier weitere erfundene Mischungen und die Kampagne „Die Farbe kommt zuletzt“ stehen im Erweiterungsplan [11-scroll-und-marketing.md](11-scroll-und-marketing.md).
+Alle Preise sind Beispielpreise und kein Angebot. Die Herkunft „Hof am Glasquell“ ist erfunden. Die Kampagne „Die Farbe kommt zuletzt“ steht in [11-scroll-und-marketing.md](11-scroll-und-marketing.md).
 
 ## Kundenerlebnis, ohne echten Kauf
 

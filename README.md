@@ -2,7 +2,7 @@
 
 Studienprojekt für eine Tee-Website im Look einer Manufaktur. Es wird nichts verkauft, nichts berechnet und nichts geliefert.
 
-Dieser Stand enthält Sprint 0 bis Sprint 5 in der Website: Scroll-Bühne mit sieben eigenen Standbildern, Sortiment, Mischungsseiten, Musterliste nur in diesem Browser, Demo ohne Zahlung, Ritual, Journal und Fragen. Sprint 6 liegt als drei Motive, ein nicht versendetes E-Mail-Muster, Abgabebericht und leeres Testprotokoll bei. Fünf Testpersonen haben die Seite nicht bedient.
+Dieser Stand enthält Sprint 0 bis Sprint 10. Die Startseite ist ein langes Dokument mit sieben Kapiteln. Das Sortiment hat neun erfundene Mischungen. Dazu kommen Herkunft, vier Journalartikel und die Kampagne „Die Farbe kommt zuletzt“. Die Musterliste bleibt im Browser, die Demo hat keine Zahlung. Motive und E-Mail-Muster werden nicht veröffentlicht. Fünf Testpersonen haben die Seite nicht bedient.
 
 ## Lokal testen
 

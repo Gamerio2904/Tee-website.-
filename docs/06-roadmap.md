@@ -2,7 +2,7 @@
 
 Die Roadmap folgt den Sprints. Ein Sprint entspricht einer Kalenderwoche im Rhythmus der Lehrveranstaltung. Die Website ist nach Sprint 2 schon vorführbar, nach Sprint 5 fachlich vollständig, nach Sprint 6 abgabefertig.
 
-**Umsetzungsstand, 1. Oktober 2026:** Sprint 0 bis Sprint 5 sind in der Website enthalten. Sprint 6 liegt als Motive, E-Mail-Muster, Abgabebericht und leeres Testprotokoll bei. Die fünf Personen für den Nutzertest stehen noch aus. Sprint 7 bis 10 sind geplant und noch nicht gebaut. Der Plan steht in [11-scroll-und-marketing.md](11-scroll-und-marketing.md).
+**Umsetzungsstand, 1. Oktober 2026:** Sprint 0 bis Sprint 10 sind in der Website enthalten. Sprint 6 und Sprint 10 teilen sich Motive, E-Mail-Muster und den Abgabebericht. Die fünf Personen für den Nutzertest stehen noch aus. Der Plan steht in [11-scroll-und-marketing.md](11-scroll-und-marketing.md).
 
 ```text
 Sprint 0  Rahmen
