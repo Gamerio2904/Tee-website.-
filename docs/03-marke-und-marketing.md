@@ -40,7 +40,7 @@ Fünf Mischungen reichen für einen vollen Shop-Eindruck. Jede Mischung hat Gesc
 | Waldbeere | Hagebutte, Hibiskus, säuerlich | 8,00 € / 50 g |
 | Bergkraut | Melisse, Salbei, Kräuterwiese | 8,50 € / 50 g |
 
-Alle Preise sind Beispielpreise und kein Angebot. Ein sechstes Produkt ist unnötig, solange die fünf Seiten vollständig sind.
+Alle Preise sind Beispielpreise und kein Angebot. Die fünf Muster bleiben die Grundlage. Vier weitere erfundene Mischungen und die Kampagne „Die Farbe kommt zuletzt“ stehen im Erweiterungsplan [11-scroll-und-marketing.md](11-scroll-und-marketing.md).
 
 ## Kundenerlebnis, ohne echten Kauf
 
