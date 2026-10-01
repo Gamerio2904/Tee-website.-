@@ -2,6 +2,8 @@
 
 Die Roadmap folgt den Sprints. Ein Sprint entspricht einer Kalenderwoche im Rhythmus der Lehrveranstaltung. Die Website ist nach Sprint 2 schon vorführbar, nach Sprint 5 fachlich vollständig, nach Sprint 6 abgabefertig.
 
+**Umsetzungsstand, 1. Oktober 2026:** Sprint 0, Sprint 1 und Sprint 2 sind in der Website enthalten und lokal startbar. Ab Sprint 3, also die Filmszene, ist noch nichts gebaut.
+
 ```text
 Sprint 0  Rahmen
           Marke, Mischungen, Betreuungsgespräch, Hinweistext

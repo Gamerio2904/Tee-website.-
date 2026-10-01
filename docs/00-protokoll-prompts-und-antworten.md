@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Erklärung zu Sprint 6.
+Stand der letzten Ergänzung: 1. Oktober 2026, Umsetzung bis Sprint 2.
 
 ## Eintrag 1
 
@@ -64,3 +64,19 @@ Testen geht noch nicht. Im Repository liegt der Plan, keine laufende Seite. Der 
 **Antwort:**
 
 Die ausführliche Fassung steht in [08-sprint-6.md](08-sprint-6.md). Sprint 6 ist die Marketing-Abgabe, nachdem die Seite in Sprint 5 fertig ist. Drei Ergebnisse: ein Nutzertest mit fünf Personen gegen die Verständnis-Kriterien, drei Social-Motive plus ein nicht versendetes E-Mail-Muster mit Studienhinweis im ersten Satz, und der Abgabestand mit schmaler und breiter Breite, `noindex` und kurzem Bericht. Neue Shop-Funktionen werden in dieser Woche nicht gebaut.
+
+## Eintrag 5
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Setzte alles bis Sprint 2 um und Gib mir den Link zur Website das ich sie runterladen und testen kann
+
+**Antwort:**
+
+Sprint 0 bis Sprint 2 sind umgesetzt: Studienhinweis, Impressum als Entwurf, dunkle Gestaltungsgrundlage, sieben stehende Kapitel, Sortimentsauszug mit Beispielpreisen, Zubereitung und Journal-Auftakt. Die Filmszene ab Sprint 3 fehlt noch. Eine öffentliche Adresse gibt es nicht. Download:
+
+https://github.com/Gamerio2904/Tee-website.-/archive/refs/heads/cursor/tee-marketing-plan-a251.zip
+
+Lokal testen mit Node.js 22: `npm install`, dann `npm run dev`, im Browser http://localhost:3000.
