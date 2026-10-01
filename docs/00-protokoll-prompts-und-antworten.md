@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Umsetzung der Sprints 7 bis 10.
+Stand der letzten Ergänzung: 1. Oktober 2026, Testlink nach der Umsetzung.
 
 ## Eintrag 1
 
@@ -190,3 +190,15 @@ Die gepinnte Bühne tauscht das Kapitel im selben Fenster aus. Der nächste Plan
 **Antwort:**
 
 Sprint 7 bis 10 sind in der Website. Die sieben Kapitel stehen untereinander. Das Sortiment hat neun erfundene Mischungen mit Aufguss, Tassenfarbe und der Herkunft Hof am Glasquell. Neu sind Herkunft, vier Journalartikel, die Kampagne „Die Farbe kommt zuletzt“, drei Motive und ein zweites E-Mail-Muster, das nicht versendet wird. Das Testprotokoll hat eine leere Spalte für die Kampagnenfrage. Ergebnisse sind nicht erfunden.
+
+## Eintrag 15
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Gib mir link zum testen
+
+**Antwort:**
+
+Die laufende Seite ist unter https://tribute-defendant-examining-household.trycloudflare.com erreichbar. Sie zeigt das lange Scrollen, neun Mischungen und die Kampagne. Die Adresse gilt, solange diese Umgebung läuft.
