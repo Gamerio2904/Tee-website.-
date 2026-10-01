@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Commit und Merge nach main.
+Stand der letzten Ergänzung: 1. Oktober 2026, Erklärung der laufenden Website.
 
 ## Eintrag 1
 
@@ -128,3 +128,15 @@ Der Build ist gelaufen. `index.html` liegt danach in `out/`, nicht als Datei im 
 **Antwort:**
 
 Der Arbeitsstand war bereits committed. Dieser Protokolleintrag ist der letzte Commit. Der Branch `cursor/tee-marketing-plan-a251` wird danach nach `main` gemergt und gepusht.
+
+## Eintrag 10
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Wie funktioniert die Website jetzt?
+
+**Antwort:**
+
+Die Website ist eine lokale Next.js-Seite ohne Server-Warenkorb und ohne Verkauf. `npm run dev` startet sie auf http://localhost:3000. Oben bleibt der Studienhinweis stehen. Die Startseite zeigt sieben stehende Kapitel, danach fünf Musterkarten, drei Zubereitungsschritte und einen Journal-Auftakt. Die Kopfzeile springt zu den Kapiteln 2, 3, 6 und 7. Impressum, Datenschutz, Studienhinweis und Barrierefreiheit sind eigene Seiten. Die Filmszene, Produktseiten und die Demo-Kasse sind noch nicht gebaut. Suchmaschinen sind mit `noindex` ausgeschlossen.
