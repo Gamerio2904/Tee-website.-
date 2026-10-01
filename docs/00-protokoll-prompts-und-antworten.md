@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, Umsetzung der restlichen Sprints.
+Stand der letzten Ergänzung: 1. Oktober 2026, öffentlicher Testlink.
 
 ## Eintrag 1
 
@@ -154,3 +154,15 @@ Die Website ist eine lokale Next.js-Seite ohne Server-Warenkorb und ohne Verkauf
 Sprint 3 bis 5 sind in der Website: Scroll-Bühne aus eigenen Standbildern, Sortiment mit fünf Mischungsseiten, Musterliste nur in diesem Browser, Demo ohne Zahlungsfelder, Ritual, Journal und Fragen. Sprint 6 hat drei Motive, ein nicht versendetes E-Mail-Muster, den Abgabebericht und ein leeres Testprotokoll. Fünf echte Testpersonen werden nicht erfunden.
 
 Lokal testen: `npm install`, dann `npm run dev`, im Browser http://localhost:3000. Der Download des Stands auf `main` steht in der README. Geprüft: Sprung zu den Kapiteln Zutaten, Guss, Muster und zurück zum Anfang, keine Überlagerung von Überschrift und Glas bei 390 Pixel Breite, Musterliste, Demo-Bestätigung mit den drei Sätzen zu Vertrag, Abbuchung und Lieferung, 404 mit Link zum Sortiment, `noindex`.
+
+## Eintrag 12
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Gib mir ein link zum testen
+
+**Antwort:**
+
+Die Seite ist unter https://tribute-defendant-examining-household.trycloudflare.com erreichbar. Die Adresse gilt, solange diese Umgebung läuft. GitHub Pages ist nicht eingeschaltet, deshalb gibt es keine dauerhafte github.io-Adresse. Der Download bleibt https://github.com/Gamerio2904/Tee-website.-/archive/refs/heads/main.zip .
