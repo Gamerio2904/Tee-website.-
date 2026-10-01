@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026.
+Stand der letzten Ergänzung: 1. Oktober 2026, Nachfrage zur Testbarkeit.
 
 ## Eintrag 1
 
@@ -40,3 +40,15 @@ Die vollständige Antwort ist der Gesamtplan in [07-zusammenfassung.md](07-zusam
 - [06-roadmap.md](06-roadmap.md)
 
 Kurzfassung der Antwort: Das Projekt ist eine fiktive, hochwertig gestaltete Tee-Website im Look einer Premium-Manufaktur. Verkauft wird nichts. Die Instagram-Referenz ist eine etwa elf Sekunden lange Bildschirmaufnahme einer scrollgesteuerten Startseite der Marke Auréa. Nachgebaut wird das Muster (feststehende Navigation, zentriertes Glasgefäß, kapitelweise Scroll-Geschichte, Gold-auf-Dunkel), nicht die fremde Marke, nicht der fremde Text und nicht die fremden Bilder. Der Umsetzungsplan läuft in sechs Scrum-Sprints von der rechtlichen und markenstrategischen Grundlage bis zur abnahmefähigen Demo.
+
+## Eintrag 3
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Ab wann kann man die Website Testen
+
+**Antwort:**
+
+Testen geht noch nicht. Im Repository liegt der Plan, keine laufende Seite. Der erste vorführbare Stand ist die Startseite am Ende von Sprint 2. Der Weg von der Startseite bis zur Demo-Bestätigung ist am Ende von Sprint 5 testbar. Die Abgabe mit Nutzertest ist Sprint 6. Sprint 0 ist noch nicht in Bau gegangen, deshalb gibt es kein Datum und keine Adresse.

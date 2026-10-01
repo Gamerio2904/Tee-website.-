@@ -40,6 +40,15 @@ Sprint 6  Abgabe
 | 5 | Weg von der Startseite bis zur Bestätigung ohne Zahlungsfelder, plus Pflichtseiten |
 | 6 | Testprotokoll, drei Motive, E-Mail-Muster, `noindex`, Abgabebericht |
 
+## Wann die Website testbar ist
+
+Stand 1. Oktober 2026 gibt es keine laufende Seite und keine Adresse. Sprint 0 ist geplant und noch nicht umgesetzt.
+
+- Nach Sprint 2 lässt sich die Startseite mit den sieben Kapiteln, dem Studienhinweis und dem Sortimentsauszug im Browser anklicken.
+- Nach Sprint 4 kommen Sortiment und Mischungsseiten dazu.
+- Nach Sprint 5 ist der ganze Weg bis zur Demo-Bestätigung testbar, inklusive Warenkorb und Pflichtseiten.
+- In Sprint 6 folgt der geführte Nutzertest mit fünf Personen.
+
 ## Bewusst später
 
 Diese Punkte stehen nicht im Weg der Abgabe. Sie kommen nur dazu, wenn Sprint 6 abgeschlossen ist und die Betreuung sie will.
