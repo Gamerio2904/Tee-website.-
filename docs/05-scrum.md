@@ -28,6 +28,7 @@ Wenn die Arbeit allein entsteht, bleiben die drei Hüte trotzdem getrennt: erst 
 5. **Demo-Abschluss.** Warenkorb, Demo-Kasse, Bestätigung.
 6. **Pflicht und Inhalt.** Impressum, Datenschutz, FAQ, Ritual, ein Journal-Artikel.
 7. **Prüfung.** Nutzertest, Social-Motive, E-Mail-Muster, Abgabedokument.
+8. **Auftritt mit Tiefe.** Langes Scrollen, neun Mischungen, Herkunft und Journal, Kampagne „Die Farbe kommt zuletzt“. Der Plan steht in `docs/11-scroll-und-marketing.md`.
 
 ## Backlog
 
@@ -76,6 +77,10 @@ Die Reihenfolge ist die Umsetzungsreihenfolge.
 21. Als Product Owner will ich fünf Nutzertests nach dem Leitfaden in der Markendatei. Akzeptanz: Protokoll mit den drei Erfolgskriterien und den gefundenen Brüchen.
 22. Als Product Owner will ich drei Social-Motive und ein nicht versendetes E-Mail-Muster mit Studienhinweis im ersten Satz.
 23. Als Abgabe will ich die laufende Seite auf schmaler und breiter Breite, `noindex` im Seitenkopf und einen kurzen Abgabebericht, der auf diese Dokumentation zeigt.
+
+### Sprint 7 bis 10, Auftritt mit Tiefe
+
+Die Stories 24 bis 38, die Abnahme und die Grenzen stehen in [11-scroll-und-marketing.md](11-scroll-und-marketing.md). Kurz: Sprint 7 macht die Startseite wieder zu einem langen Dokument. Sprint 8 erweitert das Sortiment auf neun erfundene Mischungen. Sprint 9 schärft die Oberfläche und ergänzt Herkunft und Journal. Sprint 10 trägt die Kampagne „Die Farbe kommt zuletzt“ ohne Formular und ohne Messung durch Pixel.
 
 ## Zeremonien
 

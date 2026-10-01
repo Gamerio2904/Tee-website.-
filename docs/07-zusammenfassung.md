@@ -94,7 +94,9 @@ Rollen: Product Owner für Marke und Abnahme, Scrum Master im Wechsel, Umsetzung
 | 5 | Demo-Abschluss und Pflichtseiten | Weg bis zur Bestätigung ohne Zahlungsfelder |
 | 6 | Marketing-Abgabe | Nutzertest, drei Motive, E-Mail-Muster, Bericht |
 
-Nach Sprint 6, und nur mit Freigabe: Englisch, weitere Artikel, Indexierung. Ausgeschlossen bleiben echte Zahlung, echte Kundendaten und Heilversprechen.
+Nach Sprint 6 folgt ein zweiter Plan, weil die gepinnte Bühne das Kapitel im selben Fenster austauscht und der Auftritt für das Online-Marketing zu dünn ist. Sprint 7 stellt die sieben Kapitel wieder untereinander. Sprint 8 erweitert auf neun erfundene Mischungen mit Aufguss, Tassenfarbe und fiktiver Herkunft. Sprint 9 ergänzt Herkunft und vier Journalartikel und schärft die Oberfläche. Sprint 10 trägt die Kampagne „Die Farbe kommt zuletzt“: eine Seite, drei Motive, ein unversendetes E-Mail-Muster, kein Formular, keine Pixel. Die Ausführung steht in [11-scroll-und-marketing.md](11-scroll-und-marketing.md).
+
+Nach Sprint 10, und nur mit Freigabe: Englisch und Indexierung. Ausgeschlossen bleiben echte Zahlung, echte Kundendaten und Heilversprechen.
 
 ## Ablage
 
@@ -108,3 +110,4 @@ Nach Sprint 6, und nur mit Freigabe: Englisch, weitere Artikel, Indexierung. Aus
 | `docs/05-scrum.md` | Rollen, Backlog, Abnahme |
 | `docs/06-roadmap.md` | Sprintfolge |
 | `docs/07-zusammenfassung.md` | Dieser Plan |
+| `docs/11-scroll-und-marketing.md` | Langes Scrollen, neun Mischungen, Kampagne |

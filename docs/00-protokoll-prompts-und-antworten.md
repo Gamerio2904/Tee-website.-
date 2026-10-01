@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, öffentlicher Testlink.
+Stand der letzten Ergänzung: 1. Oktober 2026, Plan für Scrollkorrektur und Online-Marketing.
 
 ## Eintrag 1
 
@@ -166,3 +166,15 @@ Lokal testen: `npm install`, dann `npm run dev`, im Browser http://localhost:300
 **Antwort:**
 
 Die Seite ist unter https://tribute-defendant-examining-household.trycloudflare.com erreichbar. Die Adresse gilt, solange diese Umgebung läuft. GitHub Pages ist nicht eingeschaltet, deshalb gibt es keine dauerhafte github.io-Adresse. Der Download bleibt https://github.com/Gamerio2904/Tee-website.-/archive/refs/heads/main.zip .
+
+## Eintrag 13
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Die Website ist verbuggt teilweise beim scrollen Wechselt die Seite, die siehe ist nicht mehr ein langes scrollen. Außerdem realistischer Inhalte, erfinde teasorten und anderen websiteninhlt. Erweitere die Website und gui verbessern. Fokus auf online Marketing. Plane das entsprechend
+
+**Antwort:**
+
+Die gepinnte Bühne tauscht das Kapitel im selben Fenster aus. Der nächste Plan stellt die sieben Kapitel wieder untereinander, erweitert das Sortiment auf neun erfundene Mischungen, schärft die Oberfläche und legt die Kampagne „Die Farbe kommt zuletzt“ an. Verkauf, Formular, Pixel, Bewertungen und Heilversprechen bleiben draußen. Die Ausführung steht in [11-scroll-und-marketing.md](11-scroll-und-marketing.md). Gebaut ist dieser Plan noch nicht.
