@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { SiteLink } from "@/components/SiteLink";
 import "./globals.css";
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const metadata: Metadata = {
   title: {
@@ -11,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Fiktive Teemanufaktur. Studienprojekt, kein Verkauf, keine Lieferung.",
   robots: { index: false, follow: false },
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: `${basePath}/favicon.svg` },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -24,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="top">
           <p className="notice">
             <span>Studienprojekt · kein Verkauf · keine Lieferung</span>
-            <a href="/studienhinweis">Ausführlich lesen</a>
+            <SiteLink href="/studienhinweis">Ausführlich lesen</SiteLink>
           </p>
           <Header />
         </div>

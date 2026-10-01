@@ -1,4 +1,5 @@
 import { Mark } from "@/components/Mark";
+import { SiteLink } from "@/components/SiteLink";
 
 const links = [
   { href: "/#zutaten", label: "Zutaten" },
@@ -10,29 +11,29 @@ const links = [
 export function Header() {
   return (
     <div className="bar">
-      <a className="logo" href="/">
+      <SiteLink className="logo" href="/">
         <Mark />
         <span>Glasquell</span>
-      </a>
+      </SiteLink>
       <nav className="nav-desktop" aria-label="Kapitel">
         {links.map((link) => (
-          <a key={link.href} href={link.href}>
+          <SiteLink key={link.href} href={link.href}>
             {link.label}
-          </a>
+          </SiteLink>
         ))}
       </nav>
       <div className="bar-end">
-        <a className="btn btn-outline" href="/#sortiment">
+        <SiteLink className="btn btn-outline" href="/#sortiment">
           <span className="label-long">Zum Sortiment</span>
           <span className="label-short">Sortiment</span>
-        </a>
+        </SiteLink>
         <details className="nav-mobile">
           <summary>Menü</summary>
           <nav aria-label="Kapitel, schmale Breite">
             {links.map((link) => (
-              <a key={link.href} href={link.href}>
+              <SiteLink key={link.href} href={link.href}>
                 {link.label}
-              </a>
+              </SiteLink>
             ))}
           </nav>
         </details>

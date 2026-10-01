@@ -15,7 +15,7 @@ npm run dev
 
 Danach im Browser öffnen: http://localhost:3000
 
-Im Repository liegt keine `index.html`. Die Seiten stehen als Quellcode in `app/`. Erst `npm run build` erzeugt `out/index.html`. Dieser Ordner wird nicht mit hochgeladen, weil er bei jedem Build neu entsteht. GitHub zeigt deshalb nur den Quellcode und startet die Website nicht.
+Die Seiten stehen als Quellcode in `app/`. `index.html` wird beim Build erzeugt und auf GitHub Pages veröffentlicht, nicht als Datei ins Repository gelegt. Die Testadresse ist https://gamerio2904.github.io/Tee-website.-/
 
 Die statische Fassung entsteht mit `npm run build`. Der Ordner `out/` lässt sich danach mit `npm start` ausliefern.
 

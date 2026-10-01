@@ -1,4 +1,5 @@
 import { Mark } from "@/components/Mark";
+import { SiteLink } from "@/components/SiteLink";
 
 export function Footer() {
   return (
@@ -8,16 +9,16 @@ export function Footer() {
         <p>Glasquell. Ein Blatt. Ein stilles Glas.</p>
       </div>
       <nav aria-label="Seitenende">
-        <a href="/#zutaten">Zutaten</a>
-        <a href="/#aufguss">Aufguss</a>
-        <a href="/#guss">Guss</a>
-        <a href="/#sortiment">Sortiment</a>
+        <SiteLink href="/#zutaten">Zutaten</SiteLink>
+        <SiteLink href="/#aufguss">Aufguss</SiteLink>
+        <SiteLink href="/#guss">Guss</SiteLink>
+        <SiteLink href="/#sortiment">Sortiment</SiteLink>
       </nav>
       <nav aria-label="Pflichtangaben">
-        <a href="/impressum">Impressum</a>
-        <a href="/datenschutz">Datenschutz</a>
-        <a href="/studienhinweis">Studienhinweis</a>
-        <a href="/barrierefreiheit">Barrierefreiheit</a>
+        <SiteLink href="/impressum">Impressum</SiteLink>
+        <SiteLink href="/datenschutz">Datenschutz</SiteLink>
+        <SiteLink href="/studienhinweis">Studienhinweis</SiteLink>
+        <SiteLink href="/barrierefreiheit">Barrierefreiheit</SiteLink>
       </nav>
     </footer>
   );

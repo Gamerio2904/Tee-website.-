@@ -1,4 +1,5 @@
 import type { Chapter } from "@/lib/content";
+import { SiteLink } from "@/components/SiteLink";
 import { Vessel } from "@/components/Vessel";
 
 export function ChapterBlock({ chapter }: { chapter: Chapter }) {
@@ -16,14 +17,14 @@ export function ChapterBlock({ chapter }: { chapter: Chapter }) {
         {chapter.primary || chapter.secondary ? (
           <div className="actions">
             {chapter.primary ? (
-              <a className="btn btn-gold" href={chapter.primary.href}>
+              <SiteLink className="btn btn-gold" href={chapter.primary.href}>
                 {chapter.primary.label}
-              </a>
+              </SiteLink>
             ) : null}
             {chapter.secondary ? (
-              <a className="text-link" href={chapter.secondary.href}>
+              <SiteLink className="text-link" href={chapter.secondary.href}>
                 {chapter.secondary.label}
-              </a>
+              </SiteLink>
             ) : null}
           </div>
         ) : null}

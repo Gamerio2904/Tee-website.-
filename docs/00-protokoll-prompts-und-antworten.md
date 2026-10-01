@@ -2,7 +2,7 @@
 
 Dieses Protokoll speichert die Prompts und die dazugehörigen Antworten dieses Projekts. Neue Nachrichten werden hier fortlaufend ergänzt. Die fachlichen Inhalte liegen zusätzlich in den genannten Dokumenten, damit die Planung versioniert bleibt.
 
-Stand der letzten Ergänzung: 1. Oktober 2026, GitHub und index.html.
+Stand der letzten Ergänzung: 1. Oktober 2026, Veröffentlichung auf GitHub Pages.
 
 ## Eintrag 1
 
@@ -104,3 +104,15 @@ Computer und Tablet ins selbe WLAN legen, `npm run dev` auf dem Computer laufen 
 **Antwort:**
 
 Auf GitHub lässt sich die Website nicht öffnen. Dort liegt der Quellcode in `app/`, keine fertige HTML-Seite. `index.html` entsteht erst lokal durch `npm run build` im Ordner `out/`. Dieser Ordner ist in `.gitignore` und wird nicht hochgeladen. Testen geht weiter über `npm run dev` und http://localhost:3000.
+
+## Eintrag 8
+
+**Zeitpunkt:** 1. Oktober 2026.
+
+**Prompt (wortgetreu):**
+
+> Mach du das
+
+**Antwort:**
+
+Die statische Seite wird per GitHub Actions gebaut. Dabei entsteht `index.html` im Build, nicht als handgeschriebene Datei im Repository. Veröffentlicht wird sie unter https://gamerio2904.github.io/Tee-website.-/ . Lokal bleibt `npm run dev` auf http://localhost:3000.
